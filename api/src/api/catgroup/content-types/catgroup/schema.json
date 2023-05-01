@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catgroups",
+  "info": {
+    "singularName": "catgroup",
+    "pluralName": "catgroups",
+    "displayName": "catgroup"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
